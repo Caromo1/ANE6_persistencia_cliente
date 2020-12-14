@@ -1,0 +1,19 @@
+{
+  "name": "ane6_persistencia_en_cliente",
+  "version": "0.0.1",
+  "description": "ANE6_persistencia_en_cliente ejercicio ",
+  "main": "index.js",
+  "scripts": {
+    "test": "cliente persistencia"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caromo1/ANE6_persistencia_cliente.git"
+  },
+  "author": "Carlos Rodriguez Monzo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Caromo1/ANE6_persistencia_cliente/issues"
+  },
+  "homepage": "https://github.com/Caromo1/ANE6_persistencia_cliente#readme"
+}
