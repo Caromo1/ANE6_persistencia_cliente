@@ -13,6 +13,7 @@ function guardadatos() {
         } else {
                 let time=moment().add(2, 'hour').toDate();
                 document.cookie = "username"+ usulocal; +",expires=", +time+ "path=/"; 
+                
                 console.log(time,usulocal, contrlocal);
                 x.style.display = "none";
                 const jobPromise = axios.get('https://jsonplaceholder.typicode.com/users');
