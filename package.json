@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Caromo1/ANE6_persistencia_cliente#readme",
   "dependencies": {
+    "axios": "^0.21.0",
     "moment": "^2.29.1"
   }
 }
