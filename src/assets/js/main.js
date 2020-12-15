@@ -1,7 +1,3 @@
-document.addEventListener("DOMContentLoaded"), ()=> {
-        const datosform = document.getElementById("formulario");
-}
-
 function guardadatos(){
         const usu=document.getElementById("usuario").value;
         const contr=document.getElementById("contra").value;
@@ -10,7 +6,8 @@ function guardadatos(){
         const data = moment().format('YYYY-MM-DDTHH:mm');
         let usulocal = localStorage.getItem("usuario");
         let contrlocal = localStorage.getItem("contraseña");
-        console.log(data,usulocal,contrlocal);
+        let datalocal = localStorage.getItem(data);
+        console.log(data,usulocal,contrlocal,datalocal);
         var x = document.getElementById("formulario");
         if(usulocal=="" || contrlocal==""){      
                 alert("rellena")
