@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Caromo1/ANE6_persistencia_cliente/issues"
   },
-  "homepage": "https://github.com/Caromo1/ANE6_persistencia_cliente#readme"
+  "homepage": "https://github.com/Caromo1/ANE6_persistencia_cliente#readme",
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
 }

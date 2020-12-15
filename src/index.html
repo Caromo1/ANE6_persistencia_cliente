@@ -1,7 +1,25 @@
 <html>
+
 <head>
+    <meta charset="utf-8">
     <script src="assets/js/main.js"></script>
+    <link rel=”stylesheet” type=”text/css” href=”assets/css/estilos.css”>
+    <script src="../node_modules/moment/moment.js"></script>
 </head>
+
 <body>
+    <form name="form" >
+        <div id="formulario" class="escondediv">
+            <input type="text" id="usuario"> Usuario<br>
+            <input type="password" id="contra"> Contraseña<br>
+            <input type="button" value="Enviar" onclick="guardadatos()">
+        </div>
+    </form>
+    <div id="enseñadatos" class="escondediv">
+            <p id="musu"></p>
+            <p id="mcontra"></p>
+            <p>Son estos los datos correctos?</p>
+    </div>
 </body>
+
 </html>
